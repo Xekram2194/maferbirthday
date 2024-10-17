@@ -67,11 +67,10 @@ function HomePage() {
 
   return (
     <div style={{ padding: '20px', textAlign: 'center'}}>
-      <h1>¡Cuenta regresiva para tu cumpleaños de mi amorcito!</h1>
-      <h1>MAFER</h1>
-      <h2>
+      <h1>¡Cuenta regresiva para el cumpleaños de mi amorcito!</h1>
+      <h4>
         Faltan {timeLeft.days} días, {timeLeft.hours} horas, {timeLeft.minutes} minutos, {timeLeft.seconds} segundos
-      </h2>
+      </h4>
       <div>{renderGames()}</div>
     </div>
   );
