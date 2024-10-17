@@ -1,0 +1,24 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.key {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    width: 30px; /* Tamaño fijo para cada tecla */
+    text-align: center;
+    cursor: pointer;
+    user-select: none; /* Evita que el texto de la tecla se seleccione */
+}
+
+.key:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
