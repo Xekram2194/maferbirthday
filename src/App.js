@@ -14,7 +14,7 @@ import PersonalidadGame from './games/PersonalidadGame'; // Asume que tienes est
 const games = [
   { day: 16, name: "Juego de Adivinanzas", route: '/adivinanzas', component: AdivinanzasGame },
   { day: 17, name: "Juego de Ahorcado", route: '/memoria', component: MemoriaGame },
-  { day: 18, name: "Puzzle de Imágenes", route: '/puzzle', component: PuzzleGame },
+  { day: 18, name: "Sudoku", route: '/puzzle', component: PuzzleGame },
   { day: 19, name: "Juego de Laberintos", route: '/laberinto', component: LaberintoGame },
   { day: 20, name: "Trivia", route: '/trivia', component: TriviaGame },
   { day: 21, name: "Juego de 'Encuentra la Diferencia'", route: '/diferencia', component: DiferenciaGame },
