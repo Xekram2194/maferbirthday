@@ -23,7 +23,16 @@ function HangmanGame() {
         "Algo que te acompaña a donde vayas",
         "Una novedad para tu imagen",
         "Un toque para tu personalidad",
-        "Un secreto que te hara brillar"
+        "Un secreto que te hara brillar",
+        "Impulsa tu rendimiento con estilo",
+        "Complementa tu energia con comodidad",
+        "Una revelacion para tus entrenamientos",
+        "Innovación para tu colección deportiva",
+        "Confort que te acompaña en cada movimiento",
+        "Esencial para tu equipamiento atlético",
+        "Diseño que sigue tus pasos a cada desafío",
+        "El secreto de tu brillo en la pista",
+        "el comer es rico"
     ];
 
     const getRandomPhrase = () => phrases[Math.floor(Math.random() * phrases.length)].toUpperCase();
